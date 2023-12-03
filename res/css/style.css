@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Noto+Sans+JP:wght@100&family=Raleway:wght@200&display=swap');
+
+*{
+    font-family: 'Dosis', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+    margin:0;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    padding:5px;
+    position:sticky;
+    z-index:1000;
+    top:0;
+}
+
+header img{
+    width:200px;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    display:flex;
+}
+
+nav a{
+    display: block;
+    padding:30px;
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover{
+    color:black;
+}
+
+/* DROPDOWN MENU UNDER SERVICES */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(240, 240, 240,0.8);
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: gray;
+    padding:10px 10px;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    color:black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* INDEX BODY */
+
+#salonimg{
+    width:100%;
+}
+
+.textoverimg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textoverlay{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    padding:80px 200px;
+    color: #fff; /* Text color */
+    background-color: rgba(51, 51, 51, 0.7);
+  }
+
+  .textoverlay h1,.textoverlay h4{
+    padding-bottom: 10px;
+  }
+
+  .textoverlay p{
+    padding-bottom: 20px;
+  }
+
+ .textoverlay i:hover{
+    background-color: rgb(207, 205, 205,0.5);
+    border-radius: 20%;
+ }
+
+ .introduction h1{
+    text-align: center;
+    padding:20px;
+    font-size:40px;
+ }
+
+ .introduction p{
+    font-size:larger;
+    text-align:justify;
+    width:60%;
+    margin:auto;
+    padding-bottom:20px;
+ }
+
+ /* SLIDES */
+
+ 
