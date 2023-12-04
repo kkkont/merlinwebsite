@@ -90,7 +90,6 @@ nav a:hover{
     align-items: center;
     position: absolute;
     text-align: center;
-    /*padding:80px 200px;*/
     height: 50%;
     width:60%;
     color: #fff; /* Text color */
@@ -127,20 +126,51 @@ nav a:hover{
  /* SLIDES */
 
  .team{
-    width:60%;
+    display:flex;
+    justify-content: center;
     margin:auto;
+    padding:30px;
  }
  .mySlides {display:none;}
 
  .slide_content{
     display:flex;
-    justify-content:space-around;
     align-items: center;
  }
 
  .slide_content img{
-    width:30%;
+    height:400px;
+    width:300px;
+    object-fit: cover;
+    padding-right:20px;
  }
+
+ .slide_content div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(35, 35, 35);
+    color:white;
+    height:380px;
+    width:380px;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+ }
+.button{
+    font-size:36px;
+    color:gray;
+    background: none;
+    border:none;
+}
+.button p{
+    padding:20px;
+}
+
+.button p:hover{
+    color:black;
+    
+}
 
  /* FOOTER */
  footer{
