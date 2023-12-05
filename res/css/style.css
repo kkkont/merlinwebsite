@@ -74,40 +74,50 @@ nav a:hover{
 
 /* INDEX BODY */
 
-#salonimg{
-    width:100%;
+#salonimg {
+    width: 100%;
+    height: auto;
 }
 
-.textoverimg{
+.textoverimg {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow:hidden;
 }
-.textoverlay{
-    display:flex;
+
+.textoverlay {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
     text-align: center;
-    height: 50%;
-    width:60%;
+    height: 300px;
+    width: 800px;
     color: #fff; /* Text color */
     background-color: rgba(51, 51, 51, 0.7);
-  }
+    
+}
 
-  .textoverlay h1,.textoverlay h4{
-    padding: 20px;
-  }
+.textoverlay h1,
+.textoverlay h4 {
+   
+    width:100%;
+}
 
-  .textoverlay p{
-    padding-bottom: 20px;
-  }
 
- .textoverlay i:hover{
-    background-color: rgb(207, 205, 205,0.5);
+
+.textoverlay i {
+    /* Remove font-size property to keep the text constant size */
+}
+
+.textoverlay i:hover {
+    background-color: rgb(207, 205, 205, 0.5);
     border-radius: 20%;
- }
+}
+
 
  .introduction h1{
     text-align: center;
