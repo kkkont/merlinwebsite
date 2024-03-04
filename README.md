@@ -1,4 +1,5 @@
 # Website for Merlin beauty salon
+**Note: This project is still in progress.**
 
 ## Overview
 
